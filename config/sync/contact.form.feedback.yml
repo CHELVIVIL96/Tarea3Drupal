@@ -1,0 +1,14 @@
+uuid: 0fee0d21-7bec-4e64-a390-1ed0ebeb666f
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Comentarios sobre el sitio web'
+recipients:
+  - tarea@tarea.com
+reply: ''
+weight: 0
+message: 'Se ha enviado su mensaje.'
+redirect: ''

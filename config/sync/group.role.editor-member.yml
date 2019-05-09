@@ -1,0 +1,14 @@
+uuid: a90404cb-d028-491e-ab36-59a066999cdc
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.editor
+id: editor-member
+label: Miembro
+weight: -100
+internal: true
+audience: member
+group_type: editor
+permissions_ui: true
+permissions: {  }

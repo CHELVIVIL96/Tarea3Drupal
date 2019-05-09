@@ -1,0 +1,29 @@
+uuid: e29f637b-6e57-4169-b434-e7f7a6446f67
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria
+    - node.type.libros
+    - taxonomy.vocabulary.categoria
+id: node.libros.field_categoria
+field_name: field_categoria
+entity_type: node
+bundle: libros
+label: Categoria
+description: 'Categoria del libro'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoria: categoria
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,10 @@
+uuid: 2c258aae-0cc4-4fc8-bf1f-9698c466bca6
+langcode: es
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+description: 'Editor de Libros'
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }
